@@ -20,7 +20,9 @@ fetch('https://api.github.com/users/roodymike/repos')
         for (i = 0; i < repo_count; i++) {
             reposize += parseInt(data[i].size);
         }
-        //console.log(language_array);
+        console.log("Wow! You found an easter egg.");
+        console.log("Look here are all the types of coding languages that I've posted on GitHub!")
+        console.log(language_array);
         //console.log(language_count);
         //console.log(reposize / 1000);
         document.getElementById('totalreposize').innerHTML = (reposize / 1000).toFixed(2);
