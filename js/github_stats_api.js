@@ -21,7 +21,7 @@ fetch('https://api.github.com/users/roodymike/repos')
             reposize += parseInt(data[i].size);
         }
         console.log("Wow! You found an easter egg.");
-        console.log("Look here are all the types of coding languages that I've posted on GitHub!")
+        console.log("Look here are all the types of coding languages that I've ever posted on GitHub!")
         console.log(language_array);
         //console.log(language_count);
         //console.log(reposize / 1000);
