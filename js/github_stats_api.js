@@ -1,7 +1,7 @@
 function onlyUnique(value, index, self) {
     return self.indexOf(value) === index;
 }
-fetch('https://api.github.com/users/roodymike/repos')
+fetch('https://api.github.com/users/roodymike/repos?per_page=100&type=public')
     .then((response) => {
         return response.json();
     })
